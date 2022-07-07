@@ -6,12 +6,12 @@
     "SYMBOL": "ETH",
     "ID": 1
   },
-  "NFT_NAME": "Skullpunks-Ultra",
-  "SYMBOL": "SP-UL",
-  "MAX_SUPPLY": 2250,
+  "NFT_NAME": "SoRekt",
+  "SYMBOL": "SR",
+  "MAX_SUPPLY": 1969,
   "WEI_COST": 0,
   "GAS_LIMIT": 100000,
   "MARKETPLACE": "Opeansea",
-  "MARKETPLACE_LINK": "https://opensea.io/collection/skullpunks-ultra",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/sorekt",
   "SHOW_BACKGROUND": true
 }

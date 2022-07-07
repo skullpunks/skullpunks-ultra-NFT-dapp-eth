@@ -112,9 +112,9 @@ function App() {
       SYMBOL: "ETH",
       ID: 1,
     },
-    NFT_NAME: "Skullpunks-Ultra",
-    SYMBOL: "SP-UL",
-    MAX_SUPPLY: 2250,
+    NFT_NAME: "SoRekt",
+    SYMBOL: "SR",
+    MAX_SUPPLY: 1969,
     WEI_COST: 0,
     DISPLAY_COST: 0,
     GAS_LIMIT: 100000,
@@ -219,7 +219,7 @@ function App() {
       >
         <s.SpacerLarge />
         <s.SpacerLarge />
-        <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+        
         <s.SpacerSmall />
         <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
@@ -236,6 +236,7 @@ function App() {
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
+            <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
             <s.TextTitle
               style={{
                 textAlign: "center",
@@ -279,18 +280,18 @@ function App() {
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)", fontSize: 35, }}
                 >
-                  Mint Skullpunk-Ultra {CONFIG.DISPLAY_COST}{" "}
+                  Get SoRekt {CONFIG.DISPLAY_COST}{" "}
                 </s.TextTitle>
                 <s.SpacerXSmall />
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  750 FREE! 2 per wallet. 2 per txn.
+                  420 FREE! 2 per wallet. 2 per txn.
                   </s.TextDescription>
                 <s.TextDescription
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
-                  1500 0.029 ETH 10 per txn.
+                  1549 @0.008 ETH 10 per txn.
                 </s.TextDescription>
                 <s.SpacerSmall />
                 {blockchain.account === "" ||
@@ -403,7 +404,7 @@ function App() {
                 color: "var(--primary-text)",
             }}
           >
-            #FORTHESKULLTURE
+            #SoRekt
           </s.TextDescription>
           
         </s.Container>
