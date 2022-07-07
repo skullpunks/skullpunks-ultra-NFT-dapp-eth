@@ -105,12 +105,12 @@ function App() {
   const [feedback, setFeedback] = useState(`Click mint to claim your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
-    CONTRACT_ADDRESS: "0x5cf7d90c85ad4517c0c316da4ee2763e13de40d5",
-    SCAN_LINK: "https://etherscan.io/address/0x5cf7d90c85ad4517c0c316da4ee2763e13de40d5",
+    CONTRACT_ADDRESS: "0x23c30882a86ec52bd4e2856df349fb4886b028e8",
+    SCAN_LINK: "https://etherscan.io/address/0x23c30882a86ec52bd4e2856df349fb4886b028e8",
     NETWORK: {
       NAME: "ETHEREUM",
       SYMBOL: "ETH",
-      ID: 1,
+      ID: 4,
     },
     NFT_NAME: "SoRekt",
     SYMBOL: "SR",
@@ -119,7 +119,7 @@ function App() {
     DISPLAY_COST: 0,
     GAS_LIMIT: 100000,
     MARKETPLACE: "OpenSea",
-    MARKETPLACE_LINK: "https://opensea.io/assets/skullpunks-ultra",
+    MARKETPLACE_LINK: "https://opensea.io/assets/sorekt",
     SHOW_BACKGROUND: false,
   });
    const calcgas = async (mintAmount) => {
