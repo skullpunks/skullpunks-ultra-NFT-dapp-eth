@@ -106,7 +106,7 @@ function App() {
   const [mintAmount, setMintAmount] = useState(1);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "0x23c30882a86ec52bd4e2856df349fb4886b028e8",
-    SCAN_LINK: "https://etherscan.io/address/0x23c30882a86ec52bd4e2856df349fb4886b028e8",
+    SCAN_LINK: "https://rinkeby.etherscan.io/address/0x23c30882a86ec52bd4e2856df349fb4886b028e8",
     NETWORK: {
       NAME: "ETHEREUM",
       SYMBOL: "ETH",
