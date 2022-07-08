@@ -115,7 +115,7 @@ function App() {
     NFT_NAME: "SoRekt",
     SYMBOL: "SR",
     MAX_SUPPLY: 1969,
-    WEI_COST: 0,
+    WEI_COST: 8000000000000000,
     DISPLAY_COST: 0,
     GAS_LIMIT: 100000,
     MARKETPLACE: "OpenSea",
