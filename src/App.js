@@ -226,8 +226,8 @@ function App() {
            </s.Container>
           <s.SpacerLarge />
           <s.Container 
-            flex={2}
-            jc={"center"}
+            flex={1.5}
+            jc={"top"}
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
@@ -237,6 +237,9 @@ function App() {
             }}
           >
             <StyledLogo alt={"logo"} src={"/config/images/logo.png"} />
+            <s.SpacerLarge />
+            <s.SpacerLarge />
+            <s.SpacerSmall />
             <s.TextTitle
               style={{
                 textAlign: "center",
