@@ -18,7 +18,7 @@ export const StyledButton = styled.button`
   font-weight: bold;
   font-size: 25px;
   color: var(--secondary-text);
-  width: 300px;
+  width: 275px;
   height: 50px;
   cursor: pointer;
   box-shadow: 0px 6px 0px -2px rgba(250, 250, 250, 0.3);
